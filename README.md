@@ -1,13 +1,14 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# COVID-2019
-=======
-1.The logical growth model uses logical growth function.
-reference:https://blog.csdn.net/weixin_36474809/article/details/104101055
-2.The SEIR model and adjust SEIR model reference :
-(1)http://dy.163.com/v2/article/detail/F599C96G0516C52N.html
-(2)https://blog.csdn.net/Zengmeng1998/article/details/104231869/
->>>>>>> README.md
-=======
-# COVID-2019
->>>>>>> fd284dfb14b8b0f51b54b2c844bae9b28c3e9956
+README
+
+COVID-19 prediction tools
+
+These are two models for COVID-10 prediciton£ºLogistic growth model and SEIR model. The logistic growth model is designed to fit the development of the curves, and the SEIR model is designed for infectious disease estimation. The logistic model may fit the existing data better when compared with the SEIR model, but it cannot be accurately judged and incorporates infectious characteristics, so the logistic model is better for near-term predictions. On the other hand, the SEIR model introduces more variables and factors by considering the interaction and association among multiple groups of people, and it is more reasonable than the logistic model as it follows the rules of infectious disease development, but the prediction results vary greatly with respect to different interventions and settings.Therefore, we provdied two models to observe different model results. 
+
+The coding of Logistic model and SEIR model were created in the Python and Matlab mathematical computing environment. 
+
+The data privided are 8 countries, but the models could be used for any other locations and infectious diseases. 
+
+Data Sources: Novel Coronavirus (COVID-19) Cases, provided by JHU CSSE:https://github.com/CSSEGISandData/COVID-19
+
+Articles: 
+Evaluation of the secondary transmission pattern and epidemic prediction of COVID-19 in the four metropolitan areas of China.https://doi.org/10.1101/2020.03.06.20032177
